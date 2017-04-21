@@ -1,0 +1,37 @@
+I/MANUEL
+	1)Se Déplacer
+		a)Cliquer sur votre pion
+		b)Cliquer sur la case verte où vousvoulez vous déplacer
+	
+	
+	2)Poser un mur
+		a)Cliquer sur l'emplacement où voulez poser votre mur
+	
+	3)Retour en arrière
+		a)Si la case n'est pas grisé cliquer sur la case "Retour"
+	
+	4)Sauvegarder
+		a)Cliquez sur la case "Save"
+	
+	5)Charger une partie
+		a)Cliquez sur la case "Load"
+
+II/Structures & Fonctions
+
+	1)Structures
+		a)Case : une case définie par sa valeur et ses murs.
+		b)Game : Un instant de la partie composée d'un tableau ainsi que des informations
+				tel que la positions des joueurs et leurs nombres de murs restant.
+		c)Liste : Une liste chainée basique de Game.
+
+	2)Fichiers
+		a)Affichage : Contient tout ce qui est relatif à l'affichage ainsi que les structures
+		b)Jouer : Contient les fonctions de gameplay
+		c)Enregistrer : Contient les enregistrement,chargement et retour en arriere
+
+III/Fonctions Spéciale 
+	1)Path_finding
+		  Il s'agit d'un algorithme recursif permettant de voir si il y a au moins 1 chemin possible  			pour chacun des joueurs l'amenant à la victoire.On pourrait réutiliser le principe 			de la fonction afin de créer une IA.
+
+IV/Critique 
+	Si je devais recommencer j'utiliserais des enums afin d'améliorer la compréhension

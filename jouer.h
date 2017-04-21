@@ -1,0 +1,13 @@
+GAME initialisation();
+int changement(GAME tmp,GAME g);
+GAME saut(GAME g,int i,int j,int joueur);
+GAME Deplacer_pion(int i,int j,GAME g,int joueur);
+int fake_victory(GAME g,int joueur);
+GAME Path_finding(GAME g,int i, int j, int joueur);
+int bloquer(GAME g);
+int Est_mur_vide(int x,int y,CASES c);
+int reste_mur(int joueur,GAME g);
+GAME simulation(GAME g,int i,int j,int x,int y,int joueur);
+GAME pose_mur(GAME g,int i,int j,int x,int y,int joueur);
+Liste jouer(GAME g,int joueur,Liste l);
+void Victoire(Liste p, GAME g);
